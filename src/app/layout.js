@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Little Lemon Restaurant",
     description: "Experience great food and an inviting atmosphere at Little Lemon Restaurant. Discover our diverse menu and book your table today!",
-    image: "/hero3.png",
+    image: "/hero.jpeg",
     url: "https://www.yourwebsite.com",
     site_name: "Little Lemon Restaurant",
   },

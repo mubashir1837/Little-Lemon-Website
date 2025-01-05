@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Little Lemon Restaurant",
   description: "Little Lemon is a modern, cozy restaurant offering delicious and freshly prepared meals, creating an unforgettable dining experience. Explore our menu, book a table, and enjoy exceptional service.",
-  keywords: "restaurant, dining, food, menu, Little Lemon, cozy, dining experience, delicious meals, restaurant in [your location]",
+  keywords: "restaurant, dining, food, menu, Little Lemon, cozy, dining experience, delicious meals, restaurant in World",
   author: "Little Lemon Team",
   robots: "index, follow",
   openGraph: {

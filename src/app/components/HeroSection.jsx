@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className='relative'>
       <Image
         className="dark:invert  bg-cover bg-center h-screen "
-        src="/dp.png"
+        src="/hero3.jpg"
         alt="Vercel logomark"
         width={1500}
         height={300}

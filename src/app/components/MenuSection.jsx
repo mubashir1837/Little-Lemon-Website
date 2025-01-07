@@ -40,7 +40,7 @@ const MenuSection = () => {
             <div className="container mx-auto px-6 lg:px-20 mt-12">
                 <h2 className="text-4xl font-bold mb-24 text-center font-serif ">Explore Menu</h2>
 
-                {/* Signature Dishes */}
+              
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center  ">
                     <div>
                         <h3 className="text-2xl font-semibold mb-6 font-serif ">Signature Dishes</h3>

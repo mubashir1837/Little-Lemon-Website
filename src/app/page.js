@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import MenuSection from "./components/MenuSection";
 import ReservationsContent from "./components/ReservationsContent";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <HeroSection/>
     <MenuSection/>
     <ReservationsContent/>
+    <Contact/>
   </div>
   );
 }

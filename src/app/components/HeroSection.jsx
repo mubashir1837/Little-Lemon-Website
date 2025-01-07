@@ -38,16 +38,23 @@ const HeroSection = () => {
           repeat={Infinity}
         />
         {/* <p className="text-lg mb-6">Experience the taste of perfection</p> */}
-        <div className="flex space-x-4 mt-2">
-          <Link href="contact" className="bg-yellow-500 text-white px-8 border-white border-4 py-3 rounded-xl text-lg flex items-center space-x-2">
+        <div className="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 mt-2">
+          <Link
+            href="contact"
+            className="bg-yellow-500 text-white px-6 sm:px-8 py-3 border-white border-4 rounded-xl text-center text-base sm:text-lg flex items-center justify-center space-x-2 w-full sm:w-auto"
+          >
             <FaPhone />
             <span>Contact Us</span>
           </Link>
-          <Link href="#menu" className="bg-white text-black px-6 sm:px-8 sm:py-0 py-3 rounded-xl text-lg flex items-center space-x-2">
+          <Link
+            href="#menu"
+            className="bg-white text-black px-6 sm:px-8 py-3 rounded-xl text-center text-base sm:text-lg flex items-center justify-center space-x-2 w-full sm:w-auto"
+          >
             <FaWpexplorer />
             <span>Explore Menu</span>
           </Link>
         </div>
+
       </div>
     </section>
   );

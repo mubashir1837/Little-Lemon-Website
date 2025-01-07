@@ -40,7 +40,7 @@ const HeroSection = () => {
         {/* <p className="text-lg mb-6">Experience the taste of perfection</p> */}
         <div className="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 mt-2">
           <Link
-            href="contact"
+            href="#contact"
             className="bg-yellow-500 text-white px-6 sm:px-8 py-3 border-white border-4 rounded-xl text-center text-base sm:text-lg flex items-center justify-center space-x-2 w-full sm:w-auto"
           >
             <FaPhone />

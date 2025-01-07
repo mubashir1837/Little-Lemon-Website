@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp, 
 
 const Contact = () => {
   return (
-    <footer className='py-10 bg-gray-800 text-white'>
+    <footer id="contact" className='py-10 bg-gray-800 text-white'>
       {/* Logo and Title Section */}
       <div className="flex flex-col items-center mb-6">
         <Image

@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp, FaTelegram } from "react-icons/fa"
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube,  FaGithub } from "react-icons/fa"
 
 const Contact = () => {
   return (
@@ -15,7 +15,7 @@ const Contact = () => {
           width={60}
           height={60}
         />
-        <h1 className="font-bold text-2xl uppercase text-yellow-400 mt-2">Little Lemon</h1>
+        <h1 className="font-bold text-2xl uppercase text-yellow-400 mt-2 ">Little Lemon</h1>
       </div>
 
       {/* Navigation Links */}
@@ -41,8 +41,8 @@ const Contact = () => {
         <Link href="#" className="hover:text-yellow-400 bg-gray-700 border border-white hover:border-yellow-300 text-xl p-2 rounded-full  text-white">
           <FaYoutube />
         </Link>
-        <Link href="#" className="hover:text-yellow-400 bg-gray-700 border border-white hover:border-yellow-300 text-xl p-2 rounded-full  text-white">
-          <FaWhatsapp />
+        <Link href="https://github.com/mubashir1837" className="hover:text-yellow-400 bg-gray-700 border border-white hover:border-yellow-300 text-xl p-2 rounded-full  text-white">
+          <FaGithub />
         </Link>
         <Link href="#" className="hover:text-yellow-400 bg-gray-700 border border-white hover:border-yellow-300 text-xl p-2 rounded-full  text-white">
           <FaLinkedin />

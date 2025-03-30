@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Delicious Restaurant
 
-## Getting Started
+Welcome to **Delicious Restaurant**, where we serve flavorful dishes for every taste! Our website is built using modern web technologies to provide a seamless and delightful user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Hero Section
+- A visually appealing hero section with a background image and animated text using `react-type-animation`.
+- Quick access buttons for **Contact Us** and **Explore Menu** with icons from `react-icons`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Navbar
+- A responsive navigation bar with links to key sections like Home, About, Menu, Reservations, and more.
+- Mobile-friendly menu toggle using `react-icons` for a clean and intuitive design.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
+- **React**: For building reusable UI components.
+- **Next.js**: For server-side rendering and optimized performance.
+- **Tailwind CSS**: For styling and responsive design.
+- **React Icons**: For adding beautiful icons to the UI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/mubashir1837/Little-Lemon-Webiste.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd lemon-app
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Visit the homepage to explore the hero section and navigation bar.
+- Use the menu links to navigate to different sections of the website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions! Please fork the repository and submit a pull request with your changes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy your experience at **Delicious Restaurant**! 🍴

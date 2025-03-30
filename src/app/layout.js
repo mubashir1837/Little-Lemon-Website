@@ -29,7 +29,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="/fav.png" type="image/png" className="rounded-full" />
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Little Lemon is a modern, cozy restaurant offering delicious and freshly prepared meals, creating an unforgettable dining experience. Explore our menu, book a table, and enjoy exceptional service." />
+        <meta name="keywords" content="restaurant, dining, food, menu, Little Lemon, cozy, dining experience, delicious meals, restaurant in World" />
+        <meta name="author" content="Little Lemon Team" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Little Lemon Restaurant" />
+        <meta property="og:description" content="Experience great food and an inviting atmosphere at Little Lemon Restaurant. Discover our diverse menu and book your table today!" />
+        <meta property="og:image" content="/hero3.jpg" />
+        <meta property="og:url" content="https://little-lemon-restaurants.vercel.app/" />
+        <meta property="og:site_name" content="Little Lemon Restaurant" />
+        <link rel="icon" href="/fav.png" type="image/png" className="rounded-full" />
+        <title>Little Lemon Restaurant</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

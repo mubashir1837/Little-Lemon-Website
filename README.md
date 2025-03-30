@@ -3,6 +3,7 @@
 Welcome to **Delicious Restaurant**, where we serve flavorful dishes for every taste! Our website is built using modern web technologies to provide a seamless and delightful user experience.
 
 ## Features
+![Hero](./public/hero3.jpg)
 
 ### Hero Section
 - A visually appealing hero section with a background image and animated text using `react-type-animation`.

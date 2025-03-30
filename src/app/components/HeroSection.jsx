@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section className='relative'>
       <Image
-        className="dark:invert  bg-cover bg-center h-screen "
+        className="bg-cover bg-center h-screen "
         src="/hero3.jpg"
         alt="Vercel logomark"
         width={1500}
@@ -18,12 +18,12 @@ const HeroSection = () => {
 
       <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white p-6">
 
-        <h1 className="text-5xl font-bold mb-4 font-serif">Delicious Restaurant</h1>
+        <h1 className="text-5xl font-bold mb-4 font-serif">Little Lemon</h1>
         <TypeAnimation
           sequence={[
 
             'Delicious meals for all!',
-            1000, // wait 1s before replacing "all" with "food lovers"
+            1000, 
             'Delicious meals for food lovers!',
             1000,
             'Flavorful dishes for every taste!',

@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="flex fixed z-10 bg-white items-center justify-between p-4 w-full mx-auto">
       <Link href="/">
         <Image
-          className="dark:invert"
+          className="image"
           src="/logo.jpg"
           alt="Logo"
           width={200}

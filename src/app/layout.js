@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Little Lemon is a modern, cozy restaurant offering delicious and freshly prepared meals, creating an unforgettable dining experience. Explore our menu, book a table, and enjoy exceptional service." />
         <meta name="keywords" content="restaurant, dining, food, menu, Little Lemon, cozy, dining experience, delicious meals, restaurant in World" />
-        <meta name="author" content="Little Lemon Team" />
+        <meta name="author" content="Mubashir Ali" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Little Lemon Restaurant" />
         <meta property="og:description" content="Experience great food and an inviting atmosphere at Little Lemon Restaurant. Discover our diverse menu and book your table today!" />

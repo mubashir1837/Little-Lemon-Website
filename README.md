@@ -43,6 +43,8 @@ Welcome to **Delicious Restaurant**, where we serve flavorful dishes for every t
 - Visit the homepage to explore the hero section and navigation bar.
 - Use the menu links to navigate to different sections of the website.
 
+Mubashir Ali - Founder @ Code with Bismillah | Aspiring Bioinformatics & Data Science Professional | Bridging Biology & Data | Researcher | Genomics, Machine Learning, AI | Python, R, Bioinformatics Tools
+
 ## Contributing
 
 We welcome contributions! Please fork the repository and submit a pull request with your changes.
